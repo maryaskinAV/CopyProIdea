@@ -48,7 +48,10 @@
     </div>
     <hr class="hr" />
     <div class="bottom">
-      <p class="">Copyright © 2016 - 2021 <br class="md:hidden"> SkyBox - Online File Storage</p>
+      <p class="">
+        Copyright © 2016 - 2021 <br class="md:hidden" />
+        SkyBox - Online File Storage
+      </p>
     </div>
   </footer>
 </template>
@@ -90,7 +93,7 @@ export default {
 
       & .linksmaintext {
         @apply text-4xl font-normal tracking-wider mb-10;
-        @apply md:text-5xl; 
+        @apply md:text-5xl;
         @apply lg:text-4xl;
       }
 
@@ -98,15 +101,15 @@ export default {
         @apply mb-2 underline transition-all duration-500;
         @apply md:text-xl;
         @apply lg:text-sm;
-        
-        &:hover{
+
+        &:hover {
           @apply text-blue-200;
         }
 
-        &.active{
+        &.active {
           @apply text-blue-300;
 
-          &:hover{
+          &:hover {
             @apply text-blue-300;
           }
         }

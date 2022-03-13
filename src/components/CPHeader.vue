@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <p class="logo">Skybox</p>
+    <router-link to="/" class="logo">Skybox</router-link>
     <div class="navigation">
       <div class="links">
         <router-link

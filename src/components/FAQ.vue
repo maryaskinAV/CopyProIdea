@@ -207,7 +207,5 @@ export default {
       }
     }
   }
-
 }
-
 </style>

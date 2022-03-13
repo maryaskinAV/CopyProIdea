@@ -7,11 +7,11 @@
 <script>
 export default {
   name: "Company",
-}
+};
 </script>
 
 <style lang="scss" scoped>
-.text{
+.text {
   @apply flex flex-col bg-gray-400 justify-center items-center;
   height: 100vh;
 }

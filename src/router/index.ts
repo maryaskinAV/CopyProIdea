@@ -9,37 +9,38 @@ const routes: Array<RouteConfig> = [
     name: "Home",
     component: () => import("@/views/Home.vue"),
   },
-  
+
   {
-    path:"/contact",
+    path: "/contact",
     name: "Contact",
     component: () => import("@/views/Contact.vue"),
   },
-  
+
   {
-    path:"/pricing",
+    path: "/pricing",
     name: "Pricing",
     component: () => import("@/views/Pricing.vue"),
   },
 
   {
-    path:"/faq",
+    path: "/faq",
     name: "FAQ",
     component: () => import("@/views/FAQ.vue"),
   },
   {
-    path:"/register",
+    path: "/register",
     name: "Register",
     component: () => import("@/views/Register.vue"),
   },
   {
-    path:"/login",
+    path: "/login",
     name: "Login",
     component: () => import("@/views/Login.vue"),
   },
 ];
 
 const router = new VueRouter({
+  mode: "history",
   routes,
 });
 

@@ -80,12 +80,12 @@ export default {
 
 <style lang="scss" scoped>
 .pricing {
-  & .wlcTxt{
-    & .default{
+  & .wlcTxt {
+    & .default {
       @apply hidden;
       @apply lg:block;
     }
-    & .mobile{
+    & .mobile {
       @apply lg:hidden;
     }
   }

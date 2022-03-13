@@ -16,13 +16,15 @@ export default {
 .default {
   @apply bg-gray-400 flex justify-center items-center flex-col;
   height: 100vh;
+
   & {
     p {
       @apply text-center;
     }
   }
 }
-.wrapper{
+
+.wrapper {
   @apply flex flex-col;
 }
 </style>

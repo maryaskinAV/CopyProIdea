@@ -60,11 +60,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.faqpage{
-  .bg{
+.faqpage {
+  .bg {
     @apply bg-no-repeat;
     background-image: url("../assets/img/bg/bgLeft.png"),
-                      url("../assets/img/bg/bgRight.png");
+      url("../assets/img/bg/bgRight.png");
     background-position: left -1.4rem, right -1.4rem;
     background-size: 0px;
     @apply lgplus:bg-4.5rem;

@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <div :class="{bgimg: $route.name != 'Home'}">
-      <CPHeader/>
+    <div :class="{ bgimg: $route.name != 'Home' }">
+      <CPHeader />
     </div>
     <main class="base-content">
-      <router-view/>
+      <router-view />
     </main>
-    <CPFooter/>
+    <CPFooter />
   </div>
 </template>
 
@@ -15,21 +15,21 @@ import CPHeader from "./components/CPHeader.vue";
 import CPFooter from "./components/CPFooter.vue";
 
 export default {
-    name: "App",
-    components: {
-      CPHeader,
-      CPFooter,    
-    },
-  
+  name: "App",
+  components: {
+    CPHeader,
+    CPFooter,
+  },
 };
 </script>
 
-
 <style lang="scss">
 @import "assets/style.scss";
-#app{
+
+#app {
   @apply relative;
 }
+
 .base-content {
   @apply min-h-screen relative;
 }
@@ -54,7 +54,7 @@ export default {
   @apply bg-purple-600;
 }
 
-.bgimg{
+.bgimg {
   width: 100%;
   background-size: 65rem;
   background-position: top, center;
@@ -64,7 +64,7 @@ export default {
   background-image: url("assets/img/BGHeader.png");
 }
 
-body{
+body {
   @apply overflow-x-hidden;
 }
 </style>

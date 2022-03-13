@@ -5,7 +5,12 @@
         <div class="pWrp">
           <p>{{ item.text }}</p>
         </div>
-        <input :type="item.input.type" :placeholder="placeholderChanger(item.input.placeholder, item.text, 1024)" />
+        <input
+          :type="item.input.type"
+          :placeholder="
+            placeholderChanger(item.input.placeholder, item.text, 1024)
+          "
+        />
       </div>
     </div>
     <div class="captcha">

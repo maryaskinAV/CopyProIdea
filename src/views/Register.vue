@@ -96,7 +96,7 @@ export default {
     background-image: url("../assets/img/bg/bgLeft.png"),
       url("../assets/img/bg/bgRight.png");
     background-position: left -1.4rem, right -1.4rem;
-    background-size: 0px;
+    background-size: 0;
     @apply lg:bg-4.5rem;
   }
 }

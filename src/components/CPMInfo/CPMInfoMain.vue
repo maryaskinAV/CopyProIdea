@@ -8,7 +8,7 @@
         :welcomeTxt2="item.welcomeTxt2"
         :underWelcomeTxt="item.underWelcomeTxt"
       />
-      <hr class=""/>
+      <hr class="" />
       <CPMInfoBottomComponent
         v-for="(item, index) in bottom"
         :key="index"
@@ -18,7 +18,7 @@
       />
     </div>
     <div class="right-info">
-      <img src="@/assets/img/Design.png" alt="" class=" ">
+      <img src="@/assets/img/Design.png" alt="" class=" " />
     </div>
   </div>
 </template>

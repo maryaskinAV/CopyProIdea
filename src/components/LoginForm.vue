@@ -3,9 +3,14 @@
     <div class="inputs">
       <div class="inputWrp" v-for="(item, index) in inputsProps" :key="index">
         <div class="pWrp">
-          <p>{{item.text}}</p>
+          <p>{{ item.text }}</p>
         </div>
-        <input :type="item.input.type" :placeholder="placeholderChanger(item.input.placeholder, item.text, 768)" />
+        <input
+          :type="item.input.type"
+          :placeholder="
+            placeholderChanger(item.input.placeholder, item.text, 768)
+          "
+        />
       </div>
     </div>
     <div class="btnWrapper">
@@ -55,7 +60,7 @@ export default {
     & .inputWrp {
       @apply flex justify-between mb-4;
       @apply md:-ml-32;
-      
+
       @apply lg:-ml-34;
       & .pWrp {
         @apply hidden items-center justify-end w-28 mr-7;
@@ -73,7 +78,6 @@ export default {
     }
   }
 
-
   & .btnWrapper {
     @apply flex items-center w-56 flex-col-reverse justify-between mt-10;
     @apply lg:w-28.7rem;
@@ -83,7 +87,7 @@ export default {
       & p {
         @apply text-gray-400 flex items-center transition-all duration-700;
 
-        &:hover{
+        &:hover {
           @apply text-gray-700 cursor-pointer;
         }
       }

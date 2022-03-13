@@ -19,12 +19,7 @@
     </div>
     <div class="SgUp">
       <button
-        class="
-          SgBtn
-          sm:text-xl sm:tracking-wider sm:w-36 sm:h-11 sm:mt-4 sm:mb-6
-          smlger:mb-4 smlger:mt-6
-          lg:tracking-normal lg:w-52 lg:h-12 lg:mt-5 lg:mb-3 lg:text-base
-        "
+        class="SgBtn sm:text-xl sm:tracking-wider sm:w-36 sm:h-11 sm:mt-4 sm:mb-6 smlger:mb-4 smlger:mt-6 lg:tracking-normal lg:w-52 lg:h-12 lg:mt-5 lg:mb-3 lg:text-base"
         v-if="btn == true"
       >
         <p>Sing Up</p>
@@ -37,15 +32,7 @@
 <script>
 export default {
   name: "CPCardComponent",
-  props: [
-    "popular",
-    "days",
-    "price",
-    "btn",
-    "mback",
-    "bgImg",
-    "abilities"
-  ],
+  props: ["popular", "days", "price", "btn", "mback", "bgImg", "abilities"],
   methods: {
     ActiveCard() {
       this.classList.add("show");
